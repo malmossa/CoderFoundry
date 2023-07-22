@@ -8,8 +8,8 @@ body {
 
 body > main {
   /* margin to account for nav bar */
-  margin-top: 85px;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 60px;
   /* min-height: 450px;*/
 }
 
