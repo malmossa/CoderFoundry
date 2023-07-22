@@ -1,0 +1,186 @@
+html,
+body {
+  position: relative;
+  color: #212121;
+  height: 100%;
+  min-height: 100%;
+}
+
+body > main {
+  /* margin to account for nav bar */
+  margin-top: 85px;
+  margin-bottom: 20px;
+  /* min-height: 450px;*/
+}
+
+main > .container {
+  padding: 60px 15px 0;
+}
+
+.contain07 {
+  padding: 0px 0px 0px 0px;
+}
+
+textarea {
+  width: auto;
+}
+
+.textinput {
+  float: left;
+  width: 100%;
+  min-height: 75px;
+  outline: none;
+  resize: none;
+  border: 1px solid #212529;
+}
+
+.homeBG {
+  width: 100%;
+  background: url(/BootstrapGrids/img/GridBG.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; /*strtch on whole page */
+  background-attachment: fixed;
+}
+
+.homeText {
+  font-family: modesto-open-shadow, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(195, 255, 0);
+}
+.heroText {
+  font-family: modesto-open-shadow, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(243, 245, 236);
+}
+.heroTextDk {
+  font-family: modesto-open-shadow, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(40, 51, 1);
+}
+
+.whiteText {
+  font-family: modesto-open-shadow, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.whiteHeroText {
+  font-family: modesto-open-shadow, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+}
+
+.bgimage {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 9, 0.5)),
+    url(/img/GridBG.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.bgimagelt {
+  width: 100%;
+  background: linear-gradient(rgba(170, 165, 165, 0.5), rgba(88, 52, 52, 0.5)),
+    url(/img/GridBG.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.content {
+  width: 100%;
+  min-height: 300px;
+  background: #212529;
+}
+.contentAuto {
+  width: 100%;
+  min-height: auto;
+  background: #b4bac0;
+}
+
+.content120 {
+  width: 100%;
+  min-height: 120px;
+  background: #6c757d;
+}
+.content120Blk {
+  width: 100%;
+  min-height: 120px;
+  background: #212529;
+}
+
+.content.bg-alt01 {
+  background: #2274c5;
+}
+.content.bg-alt02 {
+  background: #1c1f22;
+}
+.content.bg-altBlk {
+  background: #212529;
+}
+.content.bg-altDkGrey {
+  background: #6c757d;
+}
+
+.bg-altBlk {
+  background: #212529;
+}
+.bg-altDkGrey {
+  background: #6c757d;
+}
+
+textarea {
+  color: #fff;
+  overflow: hidden;
+}
+
+.minHeight {
+  min-height: 80vh;
+}
+
+.minHeight20 {
+  min-height: 20vh;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+article {
+  padding: 10px;
+}
+
+section {
+  padding: 10px;
+}
+
+aside {
+  padding: 10px;
+}
+
+.sticky-nav {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .content-bottom {
+    margin-bottom: 15px;
+  }
+  .content-bottom.bg-alt {
+    margin-bottom: -15px;
+  }
+}
