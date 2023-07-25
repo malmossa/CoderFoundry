@@ -16,6 +16,9 @@ body > main {
 main > .container {
   padding: 60px 15px 0;
 }
+main > .container-fluid {
+  padding-top: 60px;
+}
 
 .contain07 {
   padding: 0px 0px 0px 0px;
