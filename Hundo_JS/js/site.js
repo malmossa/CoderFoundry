@@ -7,8 +7,8 @@ let button = document.getElementById("btnSubmit");
 button.addEventListener("click", generateNumbers);
 
 function generateNumbers() {
-  let startValue = startInput.value;
-  let endValue = endInput.value;
+  let startValue = parseInt(startInput.value);
+  let endValue = parseInt(endInput.value);
 
   let numbers = [];
 
