@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\TacoCat_MVC_CH.props" />
+</Project>
