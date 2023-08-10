@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TacoCat_MVC_CH.props" />
+</Project>
